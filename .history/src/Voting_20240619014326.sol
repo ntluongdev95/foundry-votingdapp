@@ -355,7 +355,7 @@ contract Voting is AutomationCompatibleInterface, Ownable {
 
 
     //Chainlink Automation
-     function checkUpkeep(bytes memory /* checkData */)
+     function checkUpkeep(bytes memory checkData)
         external
         override
         view
